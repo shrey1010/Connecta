@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "chat",
+    "channels",
 ]
 
 MIDDLEWARE = [
@@ -69,7 +70,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "Connecta.wsgi.application"
+# WSGI_APPLICATION = "Connecta.wsgi.application"
+
+ASGI_APPLICATION = "Connecta.asgi.application"
 
 
 # Database
