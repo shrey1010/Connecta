@@ -1,7 +1,5 @@
-from django.contrib import admin
 from django.urls import path
 from . import views
-
 urlpatterns = [
-    path("", views.messege_view ),
+    path('', views.messages_page),
 ]
