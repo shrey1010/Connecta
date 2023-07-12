@@ -21,12 +21,19 @@ The project utilizes threading concepts to efficiently deliver messages and main
 To set up and run the project locally, follow these steps:
 
 Clone the repository: git clone https://github.com/your-username/whatsapp-clone.git
+
 Navigate to the project directory: cd whatsapp-clone
+
 Install the project dependencies: pip install -r requirements.txt
+
 Configure the database settings in settings.py to connect to your database server.
+
 Apply database migrations: python manage.py migrate
+
 Run the development server: python manage.py runserver
+
 Access the application in your web browser at http://localhost:8000
+
 Make sure to have Python and Django installed on your system before running the project.
 
 ### Contributing
